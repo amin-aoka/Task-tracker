@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
  export default function Header ({title}){
-    render(
+    return(
         <header className="header">
             {title}
         </header>

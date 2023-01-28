@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
 
-      <Header title ="Task tracker"/>
+      <Header title ="Task Tracker"/>
       <Button text ="add" color = "green"/>   
 
     </div>

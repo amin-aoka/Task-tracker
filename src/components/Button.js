@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 export default function Button ({color,text}){
-    render(
+    return(
         <button style= {{ backgroundColor:color}}className ="btn"> {text}</button>
     )
 }
