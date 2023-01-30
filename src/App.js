@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import Header from './components/Header';
-import Button from './components/Button';
 import Tasks from './components/Tasks';
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
     <div className="container">
 
       <Header title ="Task Tracker"/>
-      <Button text ="add" color = "green"/> 
       <Tasks tasks={tasks}/>
       
     </div>
