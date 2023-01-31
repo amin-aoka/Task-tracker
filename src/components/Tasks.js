@@ -1,12 +1,11 @@
 import Task from "./Task"   
 
-export default function Tasks ({tasks}){
+export default function Tasks ({tasks,onDelete}){
 
     return(
         <>
-          { tasks.map((task)=>{ 
-            
-                return <Task key ={task.id} text ={task.text} day={task.day} onDelete ={onDelete}/>
+          { tasks.map((task)=>{          
+                return <Task key ={task.id} task={task} onDelete ={onDelete}/>
             })}  
         </>
     )}
