@@ -30,11 +30,11 @@ const deleteTask= (id)=>{
     tasks.filter((task)=> task.id !== id )
   )
 
-  };
+};
   return (
     <div className="container">
       <Header title ="Task Tracker"/>
-      {tasks.length !== 0 ?(<Tasks tasks={tasks} onDelete = {deleteTask} /> ): ("No Task to show")}
+      {tasks.length !== 0 ?(<Tasks tasks={tasks} onDelete = {deleteTask}  /> ): ("No Task to show")}
     </div>
   );
 }

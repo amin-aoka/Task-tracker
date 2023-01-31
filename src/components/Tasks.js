@@ -1,6 +1,6 @@
 import Task from "./Task"   
 
-export default function Tasks ({tasks,onDelete}){
+export default function Tasks ({tasks,onDelete,onDbl}){
 
     return(
         <>
@@ -9,3 +9,4 @@ export default function Tasks ({tasks,onDelete}){
             })}  
         </>
     )}
+ 
