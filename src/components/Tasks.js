@@ -1,11 +1,12 @@
+import Task from "./Task"   
 
 export default function Tasks ({tasks}){
-    
+
     return(
         <>
           { tasks.map((task)=>{ 
             
-                return <h3 key ={task.id}>{task.text}</h3>
+                return <Task key ={task.id} text ={task.text} day={task.day} onDelete ={onDelete}/>
             })}  
         </>
     )}

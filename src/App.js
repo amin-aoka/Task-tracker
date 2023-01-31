@@ -25,6 +25,13 @@ function App() {
     }]
 )
 
+const deleteTask= (id)=>{
+  tasks.filter((id,task)=>{
+    task.id != id
+
+  })
+}
+
   return (
     <div className="container">
 
