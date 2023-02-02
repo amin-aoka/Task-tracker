@@ -8,7 +8,7 @@ import Button from './Button';
     return(
         <header className="header">
            <h1>{title}</h1>
-           <Button text ="add" color = "green" onClick = {onClick}/> 
+           <Button text ="add" color = "green" onClick = {onClick} /> 
         </header>
     )
  }
